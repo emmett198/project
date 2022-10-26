@@ -1,0 +1,32 @@
+.header{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(2,30% 65%);
+    box-shadow: 0 7px 5px red;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.food{
+    position: relative;
+    top: 89em;
+    z-index: -1;
+}
+.food h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+

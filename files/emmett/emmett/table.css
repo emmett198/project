@@ -1,0 +1,21 @@
+
+table{
+     border-collapse: collapse;
+     width: 90%;
+     margin:0 auto
+}
+table th{
+    text-align: left;
+    text-transform: capitalize;
+}
+th,td{
+    border: 5px ridge red;
+    padding: 1em,0.5em
+}
+thead,tfoot{
+    background: repeating-linear-gradient(60deg,yellow 30%, blue 30%, orange 60%, green 60%)
+    white
+}
+tbody tr:nth-of-type(even){
+    background-color: red;
+}

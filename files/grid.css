@@ -1,0 +1,20 @@
+
+.container{
+    border: 3px solid red;
+    min-height: 200vh;
+    display: grid;
+    grid-template-columns: 3, 1fr ;
+    gap: 1em;
+    grid-template-rows:  4,200px;
+    column-gap: 8px;
+    row-gap: 0px;
+}
+.p1{
+border: 2px solid black;
+}
+.p1{
+    grid-column-start: 3;
+    grid-column-end: 1;
+}
+
+

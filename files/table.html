@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+     border-collapse: collapse;
+     width: 90%;
+     margin:0 auto
+}
+table th{
+    text-align: left;
+    text-transform: capitalize;
+}
+th,td{
+    border: 5px ridge red;
+    padding: 1em,0.5em
+}
+thead,tfoot{
+    background: repeating-linear-gradient(60deg,yellow 30%, blue 30%, orange 60%, green 60%)
+    white
+}
+tbody tr:nth-of-type(even){
+    background-color: red;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">days</th>
+                    <th scope="col">morning</th>
+                    <th scope="col">afternoon</th>
+                    <th scope="col">night </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="col">monday</th>
+                    <td>bread and tea</td>
+                    <td>rice and stew</td>
+                    <td>boiled yam and sauce</td>
+                </tr>
+                <tr>
+                    <th  scope="col">tuesday</th>
+                    <td>akara and pap</td>
+                    <td>indomie</td>
+                    <td>swallow</td>
+                </tr>
+                <tr>
+                    <th  scope="col">wednesday</th>
+                    <td>toasted bread and juice</td>
+                    <td>fried plantain with sauce</td>
+                    <td>beans</td>
+                </tr>
+                <tr>
+                    <th  scope="col">thursday</th>
+                    <td>bread and tea</td>
+                    <td>yam and egg sauce</td>
+                    <td>swallow</td>
+                </tr>
+                <tr>
+                    <th scope="col">friday</th>
+                    <td>fried plantain with fried egg</td>
+                    <td>jollof rice</td>
+                    <td>indomie</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">review every two months</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
